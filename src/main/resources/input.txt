@@ -1,0 +1,5 @@
+Sun Microsystems' chief Scott McNealy will tell you at the drop of a hat that "Java is probably a bigger brand name than Sun itself." And, of course, he is right. When Time magazine called Java one of the Ten Best Products of 1995 (the only computer-related entry on the list), a new American marketing legend was born. Who's to say whether Sun's prized technology would have fared so well if its name had remained "Oak" or "Greentalk"?
+
+We all know the story: Give away an elegant, open programming environment and the world will beat a path to your door. No sweat, no matter what you decide to call it. The people charged with establishing a brand identity for Sun's lingua franca for next-generation application developers, though, decided upon a coffee metaphor for their trademark. Oak, the previous name, was taken. Why they did so, by their own accounts, is still something of a mystery.
+
+To find out the true story behind the Java name, JavaWorld interviewed several of the key people at Sun involved in the naming process. Their accounts appear below. Feel free to draw your own conclusions.

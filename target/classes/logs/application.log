@@ -1,0 +1,117 @@
+2023-05-23 11:05:25 INFO  Customer:20 - New customer created: AnnSmith
+2023-05-23 11:05:25 INFO  Main:36 - Estimated Cost: $110.0
+2023-05-23 11:05:25 INFO  Main:38 - Brand Samsung
+2023-05-23 11:05:25 INFO  Main:39 - ScreenSize 14
+2023-05-23 11:05:25 INFO  Main:40 - Brand IPhone
+2023-05-23 11:05:25 INFO  Main:41 - Model ProMax
+2023-05-23 11:05:25 INFO  Main:42 - FirstName Ann
+2023-05-23 11:05:25 INFO  Customer:40 - Updated last name:AnnSmith
+2023-05-23 11:05:25 INFO  Main:43 - LastName Smith
+2023-05-23 11:05:25 INFO  Main:44 - Email Ann@email
+2023-05-23 11:05:25 INFO  Main:45 - FirstName John
+2023-05-23 11:05:25 INFO  Main:46 - LastName Lock
+2023-05-23 11:05:25 INFO  Main:47 - BatteryType Lithium-Ion
+2023-05-23 11:05:25 INFO  Main:48 - Capacity 80
+2023-05-23 11:05:25 INFO  Main:49 - FastDelivery DeliverFast
+2023-05-23 11:05:25 INFO  Main:50 - Days 5
+2023-05-23 11:05:25 INFO  Main:51 - {}
+2023-05-23 11:32:48 INFO  Customer:20 - New customer created: AnnSmith
+2023-05-23 11:32:48 INFO  Order:46 - Estimated cost: 110.0
+2023-05-23 11:32:48 INFO  Main:36 - Estimated Cost: $110.0
+2023-05-23 11:32:48 INFO  Laptop:17 - Get thee brand: Samsung
+2023-05-23 11:32:48 INFO  Main:38 - Brand Samsung
+2023-05-23 11:32:48 INFO  Laptop:27 - Get screen size: 14
+2023-05-23 11:32:48 INFO  Main:39 - ScreenSize 14
+2023-05-23 11:32:48 INFO  Main:40 - Brand IPhone
+2023-05-23 11:32:48 INFO  Main:41 - Model ProMax
+2023-05-23 11:32:48 INFO  Main:42 - FirstName Ann
+2023-05-23 11:32:48 INFO  Customer:40 - Updated last name:AnnSmith
+2023-05-23 11:32:48 INFO  Main:43 - LastName Smith
+2023-05-23 11:32:48 INFO  Main:44 - Email Ann@email
+2023-05-23 11:32:48 INFO  Main:45 - FirstName John
+2023-05-23 11:32:48 INFO  Main:46 - LastName Lock
+2023-05-23 11:32:48 INFO  Main:47 - BatteryType Lithium-Ion
+2023-05-23 11:32:48 INFO  Main:48 - Capacity 80
+2023-05-23 11:32:48 INFO  Main:49 - FastDelivery DeliverFast
+2023-05-23 11:32:48 INFO  Main:50 - Days 5
+2023-05-23 11:32:48 INFO  Main:51 - {}
+2023-05-23 12:26:16 INFO  Customer:20 - New customer created: AnnSmith
+2023-05-23 12:26:16 INFO  Order:46 - Estimated cost: 110.0
+2023-05-23 12:26:16 INFO  Main:36 - Estimated Cost: $110.0
+2023-05-23 12:26:16 INFO  Laptop:17 - Get thee brand: Samsung
+2023-05-23 12:26:16 INFO  Main:38 - Brand Samsung
+2023-05-23 12:26:16 INFO  Laptop:27 - Get screen size: 14
+2023-05-23 12:26:16 INFO  Main:39 - ScreenSize 14
+2023-05-23 12:26:16 INFO  Main:40 - Brand IPhone
+2023-05-23 12:26:16 INFO  Main:41 - Model ProMax
+2023-05-23 12:26:16 INFO  Main:42 - FirstName Ann
+2023-05-23 12:26:16 INFO  Customer:40 - Updated last name:AnnSmith
+2023-05-23 12:26:16 INFO  Main:43 - LastName Smith
+2023-05-23 12:26:16 INFO  Main:44 - Email Ann@email
+2023-05-23 12:26:16 INFO  Main:45 - FirstName John
+2023-05-23 12:26:16 INFO  Main:46 - LastName Lock
+2023-05-23 12:26:16 INFO  Main:47 - BatteryType Lithium-Ion
+2023-05-23 12:26:16 INFO  Main:48 - Capacity 80
+2023-05-23 12:26:16 INFO  Main:49 - FastDelivery DeliverFast
+2023-05-23 12:26:16 INFO  Main:50 - Days 5
+2023-05-23 12:26:16 INFO  Main:51 - {}
+2023-05-23 12:26:24 INFO  Customer:20 - New customer created: AnnSmith
+2023-05-23 12:26:24 INFO  Order:46 - Estimated cost: 110.0
+2023-05-23 12:26:24 INFO  Main:36 - Estimated Cost: $110.0
+2023-05-23 12:26:24 INFO  Laptop:17 - Get thee brand: Samsung
+2023-05-23 12:26:24 INFO  Main:38 - Brand Samsung
+2023-05-23 12:26:24 INFO  Laptop:27 - Get screen size: 14
+2023-05-23 12:26:24 INFO  Main:39 - ScreenSize 14
+2023-05-23 12:26:24 INFO  Main:40 - Brand IPhone
+2023-05-23 12:26:24 INFO  Main:41 - Model ProMax
+2023-05-23 12:26:24 INFO  Main:42 - FirstName Ann
+2023-05-23 12:26:24 INFO  Customer:40 - Updated last name:AnnSmith
+2023-05-23 12:26:24 INFO  Main:43 - LastName Smith
+2023-05-23 12:26:24 INFO  Main:44 - Email Ann@email
+2023-05-23 12:26:24 INFO  Main:45 - FirstName John
+2023-05-23 12:26:24 INFO  Main:46 - LastName Lock
+2023-05-23 12:26:24 INFO  Main:47 - BatteryType Lithium-Ion
+2023-05-23 12:26:24 INFO  Main:48 - Capacity 80
+2023-05-23 12:26:24 INFO  Main:49 - FastDelivery DeliverFast
+2023-05-23 12:26:24 INFO  Main:50 - Days 5
+2023-05-23 12:26:24 INFO  Main:51 - {}
+2023-05-24 10:44:07 INFO  Customer:20 - New customer created: AnnSmith
+2023-05-24 10:44:07 INFO  Order:46 - Estimated cost: 110.0
+2023-05-24 10:44:07 INFO  Main:46 - Estimated Cost: $110.0
+2023-05-24 10:44:07 INFO  Laptop:17 - Get thee brand: Samsung
+2023-05-24 10:44:07 INFO  Main:48 - Brand Samsung
+2023-05-24 10:44:07 INFO  Laptop:27 - Get screen size: 14
+2023-05-24 10:44:07 INFO  Main:49 - ScreenSize 14
+2023-05-24 10:44:07 INFO  Main:50 - Brand IPhone
+2023-05-24 10:44:07 INFO  Main:51 - Model ProMax
+2023-05-24 10:44:07 INFO  Main:52 - FirstName Ann
+2023-05-24 10:44:07 INFO  Customer:40 - Updated last name:AnnSmith
+2023-05-24 10:44:07 INFO  Main:53 - LastName Smith
+2023-05-24 10:44:07 INFO  Main:54 - Email Ann@email
+2023-05-24 10:44:07 INFO  Main:55 - FirstName John
+2023-05-24 10:44:07 INFO  Main:56 - LastName Lock
+2023-05-24 10:44:07 INFO  Main:57 - BatteryType Lithium-Ion
+2023-05-24 10:44:07 INFO  Main:58 - Capacity 80
+2023-05-24 10:44:07 INFO  Main:59 - FastDelivery DeliverFast
+2023-05-24 10:44:07 INFO  Main:60 - Days 5
+2023-05-24 10:44:07 INFO  Main:61 - {}
+2023-05-24 10:47:45 INFO  Customer:20 - New customer created: AnnSmith
+2023-05-24 10:47:45 INFO  Order:46 - Estimated cost: 110.0
+2023-05-24 10:47:45 INFO  Main:46 - Estimated Cost: $110.0
+2023-05-24 10:47:45 INFO  Laptop:17 - Get thee brand: Samsung
+2023-05-24 10:47:45 INFO  Main:48 - Brand Samsung
+2023-05-24 10:47:45 INFO  Laptop:27 - Get screen size: 14
+2023-05-24 10:47:45 INFO  Main:49 - ScreenSize 14
+2023-05-24 10:47:45 INFO  Main:50 - Brand IPhone
+2023-05-24 10:47:45 INFO  Main:51 - Model ProMax
+2023-05-24 10:47:45 INFO  Main:52 - FirstName Ann
+2023-05-24 10:47:45 INFO  Customer:40 - Updated last name:AnnSmith
+2023-05-24 10:47:45 INFO  Main:53 - LastName Smith
+2023-05-24 10:47:45 INFO  Main:54 - Email Ann@email
+2023-05-24 10:47:45 INFO  Main:55 - FirstName John
+2023-05-24 10:47:45 INFO  Main:56 - LastName Lock
+2023-05-24 10:47:45 INFO  Main:57 - BatteryType Lithium-Ion
+2023-05-24 10:47:45 INFO  Main:58 - Capacity 80
+2023-05-24 10:47:45 INFO  Main:59 - FastDelivery DeliverFast
+2023-05-24 10:47:45 INFO  Main:60 - Days 5
+2023-05-24 10:47:45 INFO  Main:61 - {}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91ce864e-f316-4b82-9fd9-a03c928d9f74" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/deliveryspeed/DeliverySpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/deliveryspeed/DeliverySpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/deliveryspeed/Expedited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/deliveryspeed/Expedited.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/deliveryspeed/Standard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/deliveryspeed/Standard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/device/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/device/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/device/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/device/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/device/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/device/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/exception/InvalidDeliverySpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/exception/InvalidDeliverySpeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/exception/InvalidFixTypeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/exception/InvalidFixTypeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Charging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Charging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Fixes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Fixes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/order/Calculatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/order/Calculatable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/order/ReflectionDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/order/ReflectionDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/ConnectionPool2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/ConnectionPool2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/people/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/InPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/InPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/Shipping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/Shipping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/Verification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/Verification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/Weekday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/pickup/Weekday.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Q9uUlTGWtgHCDBmfMGDGQY6Twu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/besat/IdeaProjects/SOLVD/gadget-repairing-service&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.solvd.gadgetrepairservice.people" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="gadget-repairing-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91ce864e-f316-4b82-9fd9-a03c928d9f74" name="Changes" comment="" />
+      <created>1684778138760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684778138760</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Fixes.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/streams/ListOfDevices.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/solvd/gadgetrepairservice/fixes/Charging.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -35,13 +35,14 @@ public class Order implements Calculatable {
         double baseCost = fixTypeBaseCostMap.getOrDefault(fixType, 0.0);
         double deliveryCost = expeditedDelivery ? 10.0 : 5.0;
         double estimatedCost = baseCost + deliveryCost;
-        logger.info("Estimated cost: {}", estimatedCost);
+        logger.info("Estimated cost: " + estimatedCost);
         return estimatedCost;
     }
 
     public static void main(String[] args) {
+        //BasicConfigurator.configure();
         Order order = new Order("John Doe", "iPhone", "Screen Replacement", true, 100);
         double estimatedCost = order.calculateEstimatedCost();
-        System.out.println("Estimated Cost: $" + estimatedCost);
+        logger.info("Estimated Cost: $" + estimatedCost);
     }
 }

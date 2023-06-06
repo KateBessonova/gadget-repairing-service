@@ -1,6 +1,6 @@
 package com.solvd.gadgetrepairservice.pickup;
 
-public class InPerson implements Identification {
+public class InPerson implements Identification , Verification  {
     public boolean person;
     public  String lastName;
     public static final int MAX_ATTEMPTS = 3;
@@ -9,8 +9,6 @@ public class InPerson implements Identification {
         this.person = person;
         this.lastName = lastName;
     }
-
-
 
     public void setPerson(boolean person) {
         this.person = person;
@@ -30,7 +28,8 @@ public class InPerson implements Identification {
         this.lastName = lastName;
     }
 
-    public static int getMaxAttempts() {
-        return MAX_ATTEMPTS;
+    @Override
+    public boolean verify(InPerson person) {
+        return person.getLastName().equals(this.lastName);
     }
 }

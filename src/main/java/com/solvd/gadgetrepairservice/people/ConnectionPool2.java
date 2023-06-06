@@ -15,7 +15,7 @@ public class ConnectionPool2 {
         System.out.println("Connection names: " + connectionNames);
 
         for (int i = 0; i < numThreads; i++) {
-            threads[i] = new Thread(new Customer(connectionPool));
+            threads[i] = new Thread((Runnable) new Customer(connectionPool));
             threads[i].start();
         }
 

@@ -1,8 +1,7 @@
 package com.solvd.gadgetrepairservice.pickup;
 
 @FunctionalInterface
-public
-interface Verification {
+public interface Verification {
     boolean verify(InPerson person);
     }
 

@@ -5,6 +5,7 @@ public class Screen extends Fixes {
     private int screenSize;
 
     public Screen(String screenIssue, int screenSize) {
+        super();
         this.screenIssue = screenIssue;
         this.screenSize = screenSize;
     }
@@ -26,3 +27,4 @@ public class Screen extends Fixes {
         this.screenSize = screenSize;
     }
 }
+

@@ -14,6 +14,7 @@ enum Weekday {
     private final boolean weekend;
 
     Weekday(boolean weekend) {
+
         this.weekend = weekend;
     }
 

@@ -4,54 +4,30 @@ package com.solvd.gadgetrepairservice.people;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-public class Customer {
-    public String firstName;
-    public String lastName;
-    public String email;
+public class Customer extends People{
     public static int customerCount;
-    public static final Logger logger = LogManager.getLogger();
+    public static final Logger logger = LogManager.getLogger(Customer.class);
+
+    private ConnectionPool2.ConnectionPool connectionPool;
 
 
     public Customer (String firstName, String lastName, String email) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
+        super(firstName,lastName,email);
         customerCount++;
         logger.info("New customer created: " + firstName + "" +lastName);
     }
 
-    public static int getCustomerCount() {
 
+
+    public Customer(ConnectionPool2.ConnectionPool connectionPool) {
+        super();
+        this.connectionPool = connectionPool;
+    }
+
+    public static int getCustomerCount() {
         return customerCount;
     }
 
-    public String getFirstName() {
-
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-        logger.info("Updated first name:" + firstName + "" + lastName);
-        logger.info("Updated last name:" + firstName + "" + lastName);
-    }
-
-    public String getLastName() {
-        logger.info("Updated last name:" + firstName + "" + lastName);
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-        logger.info("Updated email: " + firstName + " " + lastName);
-    }
 }
+
 

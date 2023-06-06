@@ -4,9 +4,13 @@ public class Charging extends Fixes {
     private String batteryType;
     private int batteryCapacity;
 
-    //public Charging(String batteryType, int batteryCapacity) {
-        //this.batteryType = batteryType;
-       // this.batteryCapacity = batteryCapacity;
+
+
+    public Charging(String batteryType, int batteryCapacity) {
+        super();
+        this.batteryType = batteryType;
+        this.batteryCapacity = batteryCapacity;
+    }
 
 
     public String getBatteryType() {
@@ -26,3 +30,4 @@ public class Charging extends Fixes {
         this.batteryCapacity = batteryCapacity;
     }
 }
+

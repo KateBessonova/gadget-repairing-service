@@ -7,7 +7,7 @@ public abstract class Device {
     private String brand;
     private String model;
 
-    private static final Logger logger = LogManager.getLogger(String.valueOf(Device.class));
+    public static final Logger logger = LogManager.getLogger(String.valueOf(Device.class));
     public Device(String brand,String model) {
         this.brand = brand;
         this.model = model;

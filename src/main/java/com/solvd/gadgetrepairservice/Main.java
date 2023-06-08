@@ -1,30 +1,23 @@
 package com.solvd.gadgetrepairservice;
 
-import com.solvd.gadgetrepairservice.device.Device;
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
-
 import com.solvd.gadgetrepairservice.deliveryspeed.Expedited;
+import com.solvd.gadgetrepairservice.device.Device;
 import com.solvd.gadgetrepairservice.device.Laptop;
 import com.solvd.gadgetrepairservice.device.Phone;
-import com.solvd.gadgetrepairservice.exception.InvalidFixTypeException;
 import com.solvd.gadgetrepairservice.fixes.Charging;
 import com.solvd.gadgetrepairservice.fixes.Screen;
 import com.solvd.gadgetrepairservice.order.Order;
 import com.solvd.gadgetrepairservice.people.Customer;
 import com.solvd.gadgetrepairservice.people.Employee;
-import com.solvd.gadgetrepairservice.pickup.Identification;
 import com.solvd.gadgetrepairservice.pickup.InPerson;
 import com.solvd.gadgetrepairservice.pickup.Shipping;
 import com.solvd.gadgetrepairservice.pickup.Verification;
-//import org.apache.log4j.PropertyConfigurator;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -34,7 +27,7 @@ public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static void main(String[] args) {
-        Laptop laptop = new Laptop("Samsung", 14);
+        Laptop laptop = new Laptop("Samsung", 14, "Chromebook");
         Phone phone = new Phone("IPhone", "ProMax");
         Customer customer = new Customer("Ann", "Smith", "Ann@email");
         Employee employee = new Employee("John", "Lock", "John@email");
@@ -55,7 +48,7 @@ public class Main {
 
 
         Order order2 = new Order("John Doe", "iPhone", "Screen Replacement", true, 100);
-        double estimatedCost = order2.calculateEstimatedCost();.calculateEstimatedCost();
+        double estimatedCost = order2.calculateEstimatedCost();
         logger.info("Estimated Cost:" + estimatedCost);
 
         logger.info("Estimated Cost:" + estimatedCost);

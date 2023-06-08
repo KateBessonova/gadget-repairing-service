@@ -1,12 +1,10 @@
 package com.solvd.gadgetrepairservice.device;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-
 public class Laptop extends Device{
     private int screenSize;
-    private static final Logger logger = LogManager.getLogger(String.valueOf(Laptop.class));
+    private String brand;
+    private String model;
+    //private static final Logger logger = LogManager.getLogger(String.valueOf(Laptop.class));
 
     public Laptop(String brand, int screenSize, String model) {
         super(brand,model);
